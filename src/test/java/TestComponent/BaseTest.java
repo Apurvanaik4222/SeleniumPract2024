@@ -37,7 +37,7 @@ public class BaseTest {
     public   ProductListPage productListPage;
 
     public WebDriver intializeDriver() throws IOException {
-        //Added test Comment06
+        //Added test Comment07
 
         String browserName =System.getProperty("browser")!=null? System.getProperty("browser"):getPropertyValue("browser");
        if(browserName.contains("chrome")){
