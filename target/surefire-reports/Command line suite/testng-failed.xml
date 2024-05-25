@@ -3,6 +3,20 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
+      <class name="Tests.ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="invalidLoginDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.ErrorValidationTest -->
+      <class name="Tests.ExtentReportDemoTest">
+        <methods>
+          <include name="config"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Tests.ExtentReportDemoTest -->
       <class name="Tests.productCartTest">
         <methods>
           <include name="addProduct" invocation-numbers="0"/>

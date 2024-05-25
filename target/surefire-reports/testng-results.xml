@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-05T13:45:03 IST" name="All Test Suite" finished-at="2024-05-05T13:45:13 IST" duration-ms="10153">
+  <suite started-at="2024-05-25T16:02:40 IST" name="All Test Suite" finished-at="2024-05-25T16:02:54 IST" duration-ms="14769">
     <groups>
       <group name="ErrorValidation">
         <method signature="ErrorValidationTest.invalidLoginDetails()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" name="invalidLoginDetails" class="Tests.ErrorValidationTest"/>
@@ -11,29 +11,29 @@
         <method signature="productCartTest.addProduct(java.util.HashMap)[pri:0, instance:Tests.productCartTest@dbd8e44]" name="addProduct" class="Tests.productCartTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-05-05T13:45:03 IST" name="Error Validation Test" finished-at="2024-05-05T13:45:08 IST" duration-ms="4285">
+    <test started-at="2024-05-25T16:02:40 IST" name="Error Validation Test" finished-at="2024-05-25T16:02:45 IST" duration-ms="5232">
       <class name="Tests.ErrorValidationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-05T13:45:03 IST" name="launchApplication" finished-at="2024-05-05T13:45:06 IST" duration-ms="3025" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-25T16:02:40 IST" name="launchApplication" finished-at="2024-05-25T16:02:44 IST" duration-ms="3907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="invalidLoginDetails()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-05T13:45:06 IST" name="invalidLoginDetails" finished-at="2024-05-05T13:45:07 IST" duration-ms="1044" status="PASS">
+        <test-method signature="invalidLoginDetails()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-25T16:02:44 IST" name="invalidLoginDetails" finished-at="2024-05-25T16:02:45 IST" duration-ms="988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-05T13:45:07 IST" name="tearDown" finished-at="2024-05-05T13:45:08 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ErrorValidationTest@39a2bb97]" started-at="2024-05-25T16:02:45 IST" name="tearDown" finished-at="2024-05-25T16:02:45 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.ErrorValidationTest -->
     </test> <!-- Error Validation Test -->
-    <test started-at="2024-05-05T13:45:08 IST" name="Tests.productCartTest" finished-at="2024-05-05T13:45:13 IST" duration-ms="5634">
+    <test started-at="2024-05-25T16:02:45 IST" name="Tests.productCartTest" finished-at="2024-05-25T16:02:54 IST" duration-ms="9289">
       <class name="Tests.productCartTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-05T13:45:08 IST" name="launchApplication" finished-at="2024-05-05T13:45:09 IST" duration-ms="1517" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-25T16:02:45 IST" name="launchApplication" finished-at="2024-05-25T16:02:50 IST" duration-ms="4702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="addProduct(java.util.HashMap)[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-05T13:45:09 IST" name="addProduct" data-provider="getData" finished-at="2024-05-05T13:45:13 IST" duration-ms="3798" status="PASS">
+        <test-method signature="addProduct(java.util.HashMap)[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-25T16:02:50 IST" name="addProduct" data-provider="getData" finished-at="2024-05-25T16:02:54 IST" duration-ms="4056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-05T13:45:13 IST" name="tearDown" finished-at="2024-05-05T13:45:13 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.productCartTest@dbd8e44]" started-at="2024-05-25T16:02:54 IST" name="tearDown" finished-at="2024-05-25T16:02:54 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
